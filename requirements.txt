@@ -1,0 +1,14 @@
+emoji
+google-api-python-client
+matplotlib
+nltk
+numpy
+pandas
+Sastrawi
+scikit-learn
+seaborn
+streamlit
+wordcloud
+torch
+transformers
+tqdm
