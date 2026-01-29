@@ -1,3 +1,5 @@
+--index-url https://download.pytorch.org/whl/cu130
+
 emoji
 google-api-python-client
 matplotlib
@@ -10,5 +12,6 @@ seaborn
 streamlit
 wordcloud
 torch
+torchvision
 transformers
 tqdm
