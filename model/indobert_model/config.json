@@ -1,12 +1,17 @@
 {
+  "_num_labels": 5,
+  "add_cross_attention": false,
   "architectures": [
     "BertForSequenceClassification"
   ],
   "attention_probs_dropout_prob": 0.1,
-  "bos_token_id": 0,
+  "bos_token_id": null,
   "classifier_dropout": null,
+  "decoder_start_token_id": null,
+  "directionality": "bidi",
   "dtype": "float32",
-  "eos_token_ids": 0,
+  "eos_token_id": null,
+  "finetuning_task": null,
   "hidden_act": "gelu",
   "hidden_dropout_prob": 0.1,
   "hidden_size": 768,
@@ -17,6 +22,7 @@
   },
   "initializer_range": 0.02,
   "intermediate_size": 3072,
+  "is_decoder": false,
   "label2id": {
     "LABEL_0": 0,
     "LABEL_1": 1,
@@ -29,10 +35,20 @@
   "num_hidden_layers": 12,
   "output_past": true,
   "pad_token_id": 0,
-  "position_embedding_type": "absolute",
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "prefix": null,
   "problem_type": "single_label_classification",
-  "transformers_version": "4.57.3",
+  "pruned_heads": {},
+  "task_specific_params": null,
+  "tie_word_embeddings": true,
+  "torchscript": false,
+  "transformers_version": "5.0.0",
   "type_vocab_size": 2,
+  "use_bfloat16": false,
   "use_cache": true,
-  "vocab_size": 31923
+  "vocab_size": 50000
 }
